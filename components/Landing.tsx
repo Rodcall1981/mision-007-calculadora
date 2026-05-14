@@ -13,7 +13,7 @@ const Landing: React.FC<LandingProps> = ({ onStart }) => {
     },
     // Hero Section
     heroSection: {
-      background: 'linear-gradient(135deg, #1a3a52 0%, #2c5282 100%)',
+      background: 'linear-gradient(135deg, #FF2E00 0%, #FFA500 100%)',
       color: 'white',
       padding: '60px 20px',
       borderBottomLeftRadius: '24px',
@@ -59,7 +59,7 @@ const Landing: React.FC<LandingProps> = ({ onStart }) => {
     featuresTitle: {
       fontSize: '28px',
       fontFamily: 'Space Mono, monospace',
-      color: '#1a3a52',
+      color: '#FF2E00',
       margin: '0 0 32px 0',
       textAlign: 'center' as const,
     },
@@ -85,7 +85,7 @@ const Landing: React.FC<LandingProps> = ({ onStart }) => {
       fontSize: '18px',
       fontFamily: 'Space Mono, monospace',
       fontWeight: 600,
-      color: '#1a3a52',
+      color: '#FF2E00',
       margin: '0 0 12px 0',
     },
     cardDescription: {
@@ -109,7 +109,7 @@ const Landing: React.FC<LandingProps> = ({ onStart }) => {
     ctaTitle: {
       fontSize: '20px',
       fontFamily: 'Space Mono, monospace',
-      color: '#1a3a52',
+      color: '#FF2E00',
       margin: '0 0 12px 0',
       fontWeight: 600,
     },
@@ -120,7 +120,7 @@ const Landing: React.FC<LandingProps> = ({ onStart }) => {
       lineHeight: '1.5',
     },
     ctaButton: {
-      background: 'linear-gradient(135deg, #1a3a52 0%, #2c5282 100%)',
+      background: 'linear-gradient(135deg, #FF2E00 0%, #FFA500 100%)',
       color: 'white',
       padding: '14px 40px',
       border: 'none',
@@ -179,7 +179,7 @@ const Landing: React.FC<LandingProps> = ({ onStart }) => {
         <div style={styles.heroSection}>
           <div style={styles.decorativeCircle}></div>
           <div style={styles.heroContent}>
-            <h1 style={styles.heroTitle}>💰 Calculadora Financiera</h1>
+            <h1 style={styles.heroTitle}>🕵️ Misión 007: TU PRIMERA INVERSIÓN</h1>
             <p style={styles.heroDescription}>
               Calcula tu capacidad de préstamo o el sueldo que necesitas para invertir
             </p>
