@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Calculadora Financiera Inmobiliaria',
-  description: 'Calcula tu capacidad de préstamo o sueldo requerido',
+  title: 'Misión 007: Tu Primera Inversión',
+  description: 'Averigua tu capacidad hipotecaria con esta herramienta diseñada por el MI6',
   icons: {
     icon: '/favicon.svg',
   },
