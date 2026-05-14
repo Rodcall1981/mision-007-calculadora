@@ -21,8 +21,8 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
     const message = encodeURIComponent(
       'Hola, según la calculadora tengo capacidad de compra. Quiero conocer qué proyectos podrían ser para mí.'
     );
-    const whatsappNumber = '56940408494';
-    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+    const whatsappLink = 'https://go.wha.link/dypqWb';
+    window.open(whatsappLink, '_blank');
   };
 
   return (
@@ -37,7 +37,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
           textAlign: 'center',
         }}
       >
-        ¿Quieres Ir Más Allá?
+        ¡Felicidades, Agente!
       </h1>
 
       <div
@@ -60,10 +60,10 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
             fontWeight: 700,
           }}
         >
-          ¿Quieres conocer qué proyectos podrías comprar con esto?
+          ¿Quieres conocer más sobre Misión 007?
         </p>
         <p style={{ fontSize: '14px', marginBottom: '20px', color: '#FFA500' }}>
-          Conecta con nuestro equipo y te mostraremos opciones reales de inversión
+          ¡Misión Cumplida! Tu siguiente misión es sumarte a la comunidad y ver el proyecto secreto
         </p>
         <button
           onClick={handleWhatsAppClick}
@@ -89,7 +89,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
             e.currentTarget.style.transform = 'translateY(0)';
           }}
         >
-          💬 Agendar en WhatsApp
+          💬 Unirse a Misión 007
         </button>
       </div>
 
