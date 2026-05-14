@@ -40,7 +40,7 @@ export default function Step1Form({ onNext }: Step1FormProps) {
       errors[field]
         ? '#ef4444'
         : focusedField === field
-          ? '#00d4ff'
+          ? '#FFA500'
           : '#e2e8f0'
     }`,
     borderRadius: '12px',
@@ -49,7 +49,7 @@ export default function Step1Form({ onNext }: Step1FormProps) {
     transition: 'all 0.3s ease',
     outline: 'none',
     boxSizing: 'border-box' as const,
-    boxShadow: focusedField === field ? '0 0 0 3px rgba(0, 212, 255, 0.1)' : 'none',
+    boxShadow: focusedField === field ? '0 0 0 3px rgba(255, 46, 0, 0.1)' : 'none',
   });
 
   return (
@@ -58,7 +58,7 @@ export default function Step1Form({ onNext }: Step1FormProps) {
         style={{
           fontSize: '22px',
           marginBottom: '28px',
-          color: '#1a3a52',
+          color: '#FF2E00',
           fontFamily: "'Space Mono', monospace",
           fontWeight: 700,
         }}
@@ -72,7 +72,7 @@ export default function Step1Form({ onNext }: Step1FormProps) {
             display: 'block',
             marginBottom: '12px',
             fontWeight: 600,
-            color: '#1a3a52',
+            color: '#FF2E00',
             fontSize: '14px',
             fontFamily: "'Space Mono', monospace",
           }}
@@ -101,7 +101,7 @@ export default function Step1Form({ onNext }: Step1FormProps) {
             display: 'block',
             marginBottom: '12px',
             fontWeight: 600,
-            color: '#1a3a52',
+            color: '#FF2E00',
             fontSize: '14px',
             fontFamily: "'Space Mono', monospace",
           }}
@@ -129,7 +129,7 @@ export default function Step1Form({ onNext }: Step1FormProps) {
         style={{
           width: '100%',
           padding: '14px 40px',
-          background: 'linear-gradient(135deg, #1a3a52 0%, #2c5282 100%)',
+          background: 'linear-gradient(135deg, #FF2E00 0%, #FFA500 100%)',
           color: 'white',
           border: 'none',
           borderRadius: '8px',

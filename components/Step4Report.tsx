@@ -23,15 +23,15 @@ export default function Step4Report({ mode, result, inputValue, onNext, onBack }
           background: 'none',
           border: 'none',
           cursor: 'pointer',
-          color: '#1a3a52',
+          color: '#FF2E00',
           textDecoration: 'underline',
           marginBottom: '15px',
           transition: 'color 0.3s',
           fontFamily: "'Space Mono', monospace",
           fontSize: '14px',
         }}
-        onMouseOver={(e) => (e.currentTarget.style.color = '#00d4ff')}
-        onMouseOut={(e) => (e.currentTarget.style.color = '#1a3a52')}
+        onMouseOver={(e) => (e.currentTarget.style.color = '#FFA500')}
+        onMouseOut={(e) => (e.currentTarget.style.color = '#FF2E00')}
       >
         ← Volver
       </button>
@@ -64,14 +64,14 @@ export default function Step4Report({ mode, result, inputValue, onNext, onBack }
               padding: '24px',
               borderRadius: '12px',
               textAlign: 'center',
-              border: '2px solid #00d4ff',
+              border: '2px solid #FFA500',
               animation: 'fadeIn 0.6s ease-out',
             }}
           >
             <div style={{ fontSize: '12px', color: '#0369a1', marginBottom: '8px', textTransform: 'uppercase', fontWeight: 600, fontFamily: "'Space Mono', monospace" }}>
               Con subsidio a la tasa
             </div>
-            <div style={{ fontSize: '28px', fontWeight: 700, color: '#1a3a52', fontFamily: "'Space Mono', monospace" }}>
+            <div style={{ fontSize: '28px', fontWeight: 700, color: '#FF2E00', fontFamily: "'Space Mono', monospace" }}>
               {resultA.conSubsidio?.toLocaleString('es-CL')} UF
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function Step4Report({ mode, result, inputValue, onNext, onBack }
             <div style={{ fontSize: '12px', color: '#475569', marginBottom: '8px', textTransform: 'uppercase', fontWeight: 600, fontFamily: "'Space Mono', monospace" }}>
               Sin subsidio a la tasa
             </div>
-            <div style={{ fontSize: '28px', fontWeight: 700, color: '#1a3a52', fontFamily: "'Space Mono', monospace" }}>
+            <div style={{ fontSize: '28px', fontWeight: 700, color: '#FF2E00', fontFamily: "'Space Mono', monospace" }}>
               {resultA.sinSubsidio?.toLocaleString('es-CL')} UF
             </div>
           </div>
@@ -134,7 +134,7 @@ export default function Step4Report({ mode, result, inputValue, onNext, onBack }
         style={{
           width: '100%',
           padding: '12px',
-          background: 'linear-gradient(135deg, #1a3a52 0%, #2c5282 100%)',
+          background: 'linear-gradient(135deg, #FF2E00 0%, #2c5282 100%)',
           color: 'white',
           border: 'none',
           borderRadius: '6px',

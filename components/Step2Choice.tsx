@@ -14,15 +14,15 @@ export default function Step2Choice({ onNext, onBack }: Step2ChoiceProps) {
           background: 'none',
           border: 'none',
           cursor: 'pointer',
-          color: '#1a3a52',
+          color: '#FF2E00',
           textDecoration: 'underline',
           marginBottom: '20px',
           fontSize: '14px',
           fontWeight: 500,
           transition: 'color 0.3s',
         }}
-        onMouseOver={(e) => (e.currentTarget.style.color = '#00d4ff')}
-        onMouseOut={(e) => (e.currentTarget.style.color = '#1a3a52')}
+        onMouseOver={(e) => (e.currentTarget.style.color = '#FFA500')}
+        onMouseOut={(e) => (e.currentTarget.style.color = '#FF2E00')}
       >
         ← Volver
       </button>
@@ -31,7 +31,7 @@ export default function Step2Choice({ onNext, onBack }: Step2ChoiceProps) {
         style={{
           fontSize: '22px',
           marginBottom: '28px',
-          color: '#1a3a52',
+          color: '#FF2E00',
           fontFamily: "'Space Mono', monospace",
           fontWeight: 700,
         }}
@@ -69,12 +69,12 @@ export default function Step2Choice({ onNext, onBack }: Step2ChoiceProps) {
               transition: 'all 0.3s ease',
             }}
             onMouseOver={(e) => {
-              e.currentTarget.style.borderColor = '#00d4ff';
+              e.currentTarget.style.borderColor = '#FFA500';
               e.currentTarget.style.background =
                 'linear-gradient(135deg, #f0f9ff 0%, #f8fafc 100%)';
               e.currentTarget.style.transform = 'translateY(-2px)';
               e.currentTarget.style.boxShadow =
-                '0 8px 24px rgba(0, 212, 255, 0.2)';
+                '0 8px 24px rgba(255, 46, 0, 0.2)';
             }}
             onMouseOut={(e) => {
               e.currentTarget.style.borderColor = '#e2e8f0';
@@ -90,7 +90,7 @@ export default function Step2Choice({ onNext, onBack }: Step2ChoiceProps) {
               style={{
                 fontSize: '16px',
                 fontWeight: 600,
-                color: '#1a3a52',
+                color: '#FF2E00',
                 fontFamily: "'Space Mono', monospace",
                 marginBottom: '8px',
               }}

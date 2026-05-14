@@ -16,17 +16,17 @@ export default function Footer() {
     alignItems: 'center' as const,
     gap: '8px',
     padding: '10px 16px',
-    backgroundColor: isHovered ? 'rgba(0, 212, 255, 0.2)' : 'rgba(255, 255, 255, 0.1)',
+    backgroundColor: isHovered ? 'rgba(255, 46, 0, 0.2)' : 'rgba(255, 255, 255, 0.1)',
     borderRadius: '6px',
     color: 'white',
     textDecoration: 'none' as const,
     fontSize: '14px',
     transition: 'all 0.3s',
-    border: `1px solid ${isHovered ? '#00d4ff' : 'rgba(255, 255, 255, 0.2)'}`,
+    border: `1px solid ${isHovered ? '#FFA500' : 'rgba(255, 255, 255, 0.2)'}`,
   });
 
   const infoLinkStyle = (isHovered: boolean) => ({
-    color: isHovered ? '#00d4ff' : 'rgba(255, 255, 255, 0.8)',
+    color: isHovered ? '#FFA500' : 'rgba(255, 255, 255, 0.8)',
     cursor: 'pointer',
     transition: 'color 0.3s',
   });
@@ -34,7 +34,7 @@ export default function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: '#1a3a52',
+        backgroundColor: '#FF2E00',
         color: 'white',
         padding: '40px 20px',
         marginTop: '60px',

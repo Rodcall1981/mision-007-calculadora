@@ -59,7 +59,7 @@ export default function Step3Input({ mode, onNext, onBack }: Step3InputProps) {
           fontSize: '14px',
           transition: 'color 0.3s',
         }}
-        onMouseOver={(e) => (e.currentTarget.style.color = '#00d4ff')}
+        onMouseOver={(e) => (e.currentTarget.style.color = '#FFA500')}
         onMouseOut={(e) => (e.currentTarget.style.color = '#1a3a52')}
       >
         ← Volver
@@ -90,8 +90,8 @@ export default function Step3Input({ mode, onNext, onBack }: Step3InputProps) {
             boxSizing: 'border-box' as const,
           }}
           onFocus={(e) => {
-            e.currentTarget.style.borderColor = '#00d4ff';
-            e.currentTarget.style.boxShadow = '0 0 0 3px rgba(0, 212, 255, 0.1)';
+            e.currentTarget.style.borderColor = '#FFA500';
+            e.currentTarget.style.boxShadow = '0 0 0 3px rgba(255, 46, 0, 0.1)';
           }}
           onBlur={(e) => {
             e.currentTarget.style.borderColor = error ? '#ef4444' : '#e2e8f0';
@@ -108,7 +108,7 @@ export default function Step3Input({ mode, onNext, onBack }: Step3InputProps) {
         style={{
           width: '100%',
           padding: '14px 40px',
-          background: 'linear-gradient(135deg, #1a3a52 0%, #2c5282 100%)',
+          background: 'linear-gradient(135deg, #1a3a52 0%, #FFA500 100%)',
           color: 'white',
           border: 'none',
           borderRadius: '8px',
