@@ -1,5 +1,6 @@
 {
-  "name": "calculadora-financiera",
+  "name": "mision-007-calculadora",
+  "description": "Misión 007: Calculadora de capacidad hipotecaria",
   "version": "0.1.0",
   "private": true,
   "scripts": {
