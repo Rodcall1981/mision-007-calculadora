@@ -31,7 +31,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
         style={{
           fontSize: '28px',
           marginBottom: '28px',
-          color: '#1a3a52',
+          color: '#FFA500',
           fontFamily: "'Space Mono', monospace",
           fontWeight: 700,
           textAlign: 'center',
@@ -47,7 +47,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
           borderRadius: '12px',
           marginBottom: '20px',
           textAlign: 'center',
-          border: '2px solid #10b981',
+          border: '2px solid #FF2E00',
           animation: 'fadeIn 0.6s ease-out',
         }}
       >
@@ -62,7 +62,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
         >
           ¿Quieres conocer qué proyectos podrías comprar con esto?
         </p>
-        <p style={{ fontSize: '14px', marginBottom: '20px', color: '#059669' }}>
+        <p style={{ fontSize: '14px', marginBottom: '20px', color: '#FFA500' }}>
           Conecta con nuestro equipo y te mostraremos opciones reales de inversión
         </p>
         <button
@@ -70,7 +70,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
           style={{
             width: '100%',
             padding: '14px 40px',
-            background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+            background: 'linear-gradient(135deg, #FF2E00 0%, #FFA500 100%)',
             color: 'white',
             border: 'none',
             borderRadius: '8px',
@@ -78,14 +78,14 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
             fontWeight: 600,
             cursor: 'pointer',
             transition: 'all 0.3s ease',
-            boxShadow: '0 4px 12px rgba(16, 185, 129, 0.2)',
+            boxShadow: '0 4px 12px rgba(255, 46, 0, 0.2)',
           }}
           onMouseOver={(e) => {
-            e.currentTarget.style.boxShadow = '0 8px 24px rgba(16, 185, 129, 0.3)';
+            e.currentTarget.style.boxShadow = '0 8px 24px rgba(255, 46, 0, 0.3)';
             e.currentTarget.style.transform = 'translateY(-2px)';
           }}
           onMouseOut={(e) => {
-            e.currentTarget.style.boxShadow = '0 4px 12px rgba(16, 185, 129, 0.2)';
+            e.currentTarget.style.boxShadow = '0 4px 12px rgba(255, 46, 0, 0.2)';
             e.currentTarget.style.transform = 'translateY(0)';
           }}
         >
@@ -99,7 +99,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
           style={{
             padding: '12px 24px',
             background: 'linear-gradient(135deg, #f0f9ff 0%, #f8fafc 100%)',
-            color: '#1a3a52',
+            color: '#FFA500',
             border: '2px solid #e2e8f0',
             borderRadius: '8px',
             fontWeight: 600,
@@ -108,7 +108,7 @@ export default function Step5CTA({ email, nombre, onRestart }: Step5CTAProps) {
             fontFamily: "'Space Mono', monospace",
           }}
           onMouseOver={(e) => {
-            e.currentTarget.style.borderColor = '#00d4ff';
+            e.currentTarget.style.borderColor = '#FFA500';
             e.currentTarget.style.background = 'linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%)';
           }}
           onMouseOut={(e) => {
