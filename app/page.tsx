@@ -131,7 +131,7 @@ export default function Home() {
                 }}
               />
               <h1 style={{ fontSize: '24px', fontWeight: 700, margin: 0 }}>
-                Calculadora Financiera
+                Misión 007
               </h1>
             </div>
 
